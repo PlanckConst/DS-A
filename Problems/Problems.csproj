@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Hard\" />
-    <Folder Include="Medium\" />
   </ItemGroup>
 
 </Project>
