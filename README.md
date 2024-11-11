@@ -27,8 +27,8 @@
 ## Structure
 
 **By Difficulty**
-- [Easy]()
-- [Medium]()
+- [Easy](https://github.com/PlanckConst/Microsoft-Data-Structure-and-Algorithms/tree/master/Problems/Easy)
+- [Medium](https://github.com/PlanckConst/Microsoft-Data-Structure-and-Algorithms/tree/master/Problems/Medium)
 - [Hard]()
 
 **By Topic**
