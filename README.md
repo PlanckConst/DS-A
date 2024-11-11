@@ -88,4 +88,4 @@ Want to schedule 1 on 1 preparation for your upcoming FAANG interview or learn D
 - DS&A
 - Mock Interview
 
-Happy to host free sessions to help you jump-start your journey to becoming a *strong developer* at **NO COST**
+Happy to host free sessions to help you jump-start your journey to becoming a *strong developer*
