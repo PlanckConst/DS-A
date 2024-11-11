@@ -8,7 +8,7 @@
 [![Work In Progress](https://img.shields.io/badge/Status-WorkInProgress-yellow.svg)](https://shields.io/)
 
 #### Includes
-- In-depth Solutions
+- Efficient and Readable Solutions
 - Detailed Video Explanations
 - Most frequent Microsoft Coding Interview Problems
 
