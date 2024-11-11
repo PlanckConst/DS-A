@@ -8,16 +8,16 @@ namespace ProblemTests.Easy
         [Test]
         public void DefaultTest()
         {
-            Assert.That(Leet.MergeAlternately("abc", "pqr"), Is.EqualTo("apbqcr"));
-            Assert.That(Leet.MergeAlternately("ab", "pqrs"), Is.EqualTo("apbqrs"));
-            Assert.That(Leet.MergeAlternately("abcd", "pq"), Is.EqualTo("apbqcd"));
+            Assert.That(Leet1768.MergeAlternately("abc", "pqr"), Is.EqualTo("apbqcr"));
+            Assert.That(Leet1768.MergeAlternately("ab", "pqrs"), Is.EqualTo("apbqrs"));
+            Assert.That(Leet1768.MergeAlternately("abcd", "pq"), Is.EqualTo("apbqcd"));
         }
         [Test]
         public void MyTest()
         {
-            Assert.That(Leet.MergeAlternately("acefg", "bd"), Is.EqualTo("abcdefg"));
-            Assert.That(Leet.MergeAlternately("acegi", "bdfhj"), Is.EqualTo("abcdefghij"));
-            Assert.That(Leet.MergeAlternately("acegi", "bdfhjk"), Is.EqualTo("abcdefghijk"));
+            Assert.That(Leet1768.MergeAlternately("acefg", "bd"), Is.EqualTo("abcdefg"));
+            Assert.That(Leet1768.MergeAlternately("acegi", "bdfhj"), Is.EqualTo("abcdefghij"));
+            Assert.That(Leet1768.MergeAlternately("acegi", "bdfhjk"), Is.EqualTo("abcdefghijk"));
         }
     }
 }
