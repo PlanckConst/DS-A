@@ -4,7 +4,7 @@ using System;
 namespace ProblemTests.Easy
 {
     [TestFixture]
-    public class TwoSum
+    public class TwoSumTest
     {
         private static readonly int[] DefaultExpected1 = [0, 1];
         private static readonly int[] DefaultExpected2 = [1, 2];
