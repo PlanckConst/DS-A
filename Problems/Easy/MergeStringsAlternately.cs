@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Problems.Easy
 {
-    public class Leet
+    public class Leet1768
     {
         public static string MergeAlternately(string word1, string word2)
         {
