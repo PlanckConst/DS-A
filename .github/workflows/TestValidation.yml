@@ -1,0 +1,31 @@
+name: Test Validation
+
+on: 
+    push:
+    pull_request:
+        branches: [ Master ]
+        paths:
+        - '**cs'
+        - '**.csproj'
+        
+env:
+    DOTNET_VERSION: '8.0.x'  
+    
+jobs:
+  test-validation:
+
+    name: test-validation-${{matrix.os}}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Run Validation Test
+      run: dotnet test
