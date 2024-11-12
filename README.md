@@ -1,6 +1,8 @@
 ### Data Structures and Algorithms
 *Popular Microsoft Adjacent Leetcode Problems*
 
+*Support by leaving a ⭐*
+
 ---
 
 ![Test Validation Check](https://github.com/PlanckConst/DS-A/actions/workflows/TestValidation.yml/badge.svg) 
