@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
-using Problems.Medium;
+﻿using Problems.Medium;
 
-namespace Problems.Medium.Tests
+namespace ProblemTests.Medium
 {
     [TestFixture]
-    public class LRUCacheUnitTests
+    public class LRUCacheTests
     {
         [Test]
         public void Test_Get_OnEmptyCache_ReturnsMinusOne()

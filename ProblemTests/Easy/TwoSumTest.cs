@@ -1,5 +1,4 @@
 ﻿using Problems.Easy;
-using System;
 
 namespace ProblemTests.Easy
 {
@@ -27,7 +26,7 @@ namespace ProblemTests.Easy
         {
             Assert.That(Leet1.TwoSum([1, 2, 3, 4, 5, 6], 7), Is.EqualTo(MyExpected1));
             Assert.That(Leet1.TwoSum([1, 2, 3, 4, 5, 6], 10), Is.EqualTo(MyExpected2));
-            Assert.That(Leet1.TwoSum([1,2], 3), Is.EqualTo(MyExpected3));
+            Assert.That(Leet1.TwoSum([1, 2], 3), Is.EqualTo(MyExpected3));
         }
     }
 }
