@@ -9,7 +9,7 @@ namespace ProblemTests.Medium
         public void Test_Get_OnEmptyCache_ReturnsMinusOne()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
 
             // Act
             int result = cache.Get(1);
@@ -22,7 +22,7 @@ namespace ProblemTests.Medium
         public void Test_PutAndGet_SingleElement()
         {
             // Arrange
-            LRUCache cache = new LRUCache(1);
+            LRUCache cache = new(1);
             cache.Put(1, 1);
 
             // Act
@@ -36,7 +36,7 @@ namespace ProblemTests.Medium
         public void Test_PutAndGet_MultipleElements()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
 
@@ -53,7 +53,7 @@ namespace ProblemTests.Medium
         public void Test_CapacityExceeded_EvictsLeastRecentlyUsed()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
             cache.Put(3, 3); // This should evict key 1
@@ -73,10 +73,10 @@ namespace ProblemTests.Medium
         public void Test_AccessOrder_MaintainsRecentUsage()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
-            cache.Get(1);      // Access key 1, making key 2 least recently used
+            _ = cache.Get(1);      // Access key 1, making key 2 least recently used
             cache.Put(3, 3);   // Evicts key 2
 
             // Act
@@ -94,7 +94,7 @@ namespace ProblemTests.Medium
         public void Test_UpdateExistingKey_MovesToFront()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
             cache.Put(1, 10); // Update key 1 and move to front
@@ -115,7 +115,7 @@ namespace ProblemTests.Medium
         public void Test_CapacityOne_EvictionBehavior()
         {
             // Arrange
-            LRUCache cache = new LRUCache(1);
+            LRUCache cache = new(1);
             cache.Put(1, 1);
             cache.Put(2, 2); // Evicts key 1
 
@@ -132,11 +132,11 @@ namespace ProblemTests.Medium
         public void Test_MultipleEvictions_CorrectlyEvictsLRU()
         {
             // Arrange
-            LRUCache cache = new LRUCache(3);
+            LRUCache cache = new(3);
             cache.Put(1, 1);
             cache.Put(2, 2);
             cache.Put(3, 3);
-            cache.Get(1); // Access key 1
+            _ = cache.Get(1); // Access key 1
             cache.Put(4, 4); // Should evict key 2
 
             // Act
@@ -156,7 +156,7 @@ namespace ProblemTests.Medium
         public void Test_PutExistingKey_DoesNotIncreaseSize()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
             cache.Put(1, 10); // Update key 1
@@ -176,7 +176,7 @@ namespace ProblemTests.Medium
         public void Test_PutAndGet_AllElements()
         {
             // Arrange
-            LRUCache cache = new LRUCache(3);
+            LRUCache cache = new(3);
             cache.Put(1, 1);
             cache.Put(2, 2);
             cache.Put(3, 3);
@@ -196,10 +196,10 @@ namespace ProblemTests.Medium
         public void Test_GetRecentItem_DoesNotEvict()
         {
             // Arrange
-            LRUCache cache = new LRUCache(2);
+            LRUCache cache = new(2);
             cache.Put(1, 1);
             cache.Put(2, 2);
-            cache.Get(1); // Make key 1 recent
+            _ = cache.Get(1); // Make key 1 recent
             cache.Put(3, 3); // Evicts key 2
 
             // Act

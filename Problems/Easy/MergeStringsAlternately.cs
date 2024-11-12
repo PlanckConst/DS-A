@@ -16,11 +16,11 @@ namespace Problems.Easy
             {
                 if (i < word1.Length)
                 {
-                    resultString.Append(word1[i]);
+                    _ = resultString.Append(word1[i]);
                 }
                 if (i < word2.Length)
                 {
-                    resultString.Append(word2[i]);
+                    _ = resultString.Append(word2[i]);
                 }
             }
             return resultString.ToString();

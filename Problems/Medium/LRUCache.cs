@@ -4,23 +4,29 @@ namespace Problems.Medium
 {
     public class LRUCache
     {
-        private Dictionary<int, LinkedListNode<int?>> _index;
-        private int _capacity;
-        private LinkedList<int?> _cache;
+        private readonly Dictionary<int, LinkedListNode<int?>> _index;
+        private readonly int _capacity;
+        private readonly LinkedList<int?> _cache;
 
         public LRUCache(int capacity)
         {
             _capacity = capacity;
-            _index = new Dictionary<int, LinkedListNode<int?>>();
+            _index = [];
             _cache = new LinkedList<int?>();
         }
 
         public int Get(int key)
         {
             //Search for the value too see if key exists
-            if (!_index.TryGetValue(key, out LinkedListNode<int?>? node)) return -1;
+            if (!_index.TryGetValue(key, out LinkedListNode<int?>? node))
+            {
+                return -1;
+            }
             //Check if key is found, but node has a null value (buffer)
-            if (!node.Value.HasValue) return -1;
+            if (!node.Value.HasValue)
+            {
+                return -1;
+            }
 
             _cache.Remove(node);
             _cache.AddFirst(node);
@@ -30,9 +36,12 @@ namespace Problems.Medium
         public void Put(int key, int value)
         {
             //Buffer: check if key exists and if value is null. If true then remove the key.
-            if (_index.ContainsKey(key) && !_index[key].Value.HasValue) _index.Remove(key);
+            if (_index.ContainsKey(key) && !_index[key].Value.HasValue)
+            {
+                _ = _index.Remove(key);
+            }
 
-            LinkedListNode<int?> node = new LinkedListNode<int?>(value);
+            LinkedListNode<int?> node = new(value);
 
             //Checks if key does not exist and can add it
             if (_index.TryAdd(key, node))
