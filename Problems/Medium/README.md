@@ -20,7 +20,7 @@
 
 *Space Complexity*: O(1) where N is the maximum capacity
 
-**Problem Topic**: Hash Table, Linked List, Design, Doubly-Linked List
+**Problem Topic**: Linked List, Math, Recursion
 
 **Video Explanation**: 
 
