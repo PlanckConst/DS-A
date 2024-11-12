@@ -1,6 +1,8 @@
 ### Data Structures and Algorithms
 *Popular Microsoft Adjacent Leetcode Problems*
 
+*Support by leaving a ⭐*
+
 ---
 
 ![Test Validation Check](https://github.com/PlanckConst/DS-A/actions/workflows/TestValidation.yml/badge.svg) 
@@ -88,4 +90,4 @@ Want to schedule 1 on 1 preparation for your upcoming FAANG interview or learn D
 - DS&A
 - Mock Interview
 
-Happy to host free sessions to help you jump-start your journey to becoming a *strong developer*
+Happy to host sessions to help you jump-start your journey to becoming a *strong developer*
