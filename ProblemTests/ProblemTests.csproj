@@ -24,8 +24,4 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Hard\" />
-  </ItemGroup>
-
 </Project>
