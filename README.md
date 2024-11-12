@@ -31,7 +31,7 @@
 **By Difficulty**
 - [Easy](https://github.com/PlanckConst/Microsoft-Data-Structure-and-Algorithms/tree/master/Problems/Easy)
 - [Medium](https://github.com/PlanckConst/Microsoft-Data-Structure-and-Algorithms/tree/master/Problems/Medium)
-- [Hard]()
+- [Hard](https://github.com/PlanckConst/Microsoft-Data-Structure-and-Algorithms/tree/master/Problems/Hard)
 
 **By Topic**
 
@@ -81,7 +81,7 @@
 ## Contact me
 Want to schedule 1 on 1 preparation for your upcoming FAANG interview or learn DS&A and C# Fundamentals?
 
-**Send an Email:** brandonchin.dev@gmail.com
+**Send an Email:** [brandonchin.dev@gmail.com](brandonchin.dev@gmail.com)
 
 **Subject:** (Choose one or more of the following for email subject)
 - FAANG Prep
