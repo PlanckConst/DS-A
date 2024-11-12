@@ -2,7 +2,7 @@
 
 ---
 
-#### [LRU Cache](https://github.com/PlanckConst/DS-A/blob/master/Problems/Hard/TrappingRainWater.cs)
+#### [Trapping Rain Water](https://github.com/PlanckConst/DS-A/blob/master/Problems/Hard/TrappingRainWater.cs)
 
 *Time Complexity*: O(N)  We traverse through the array to find the total water the structure can hold.
 
