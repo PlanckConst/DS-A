@@ -35,3 +35,15 @@
 **Problem Topic**: Array, DFS, BFS, Union Find, Matrix
 
 **Video Explanation**: 
+
+---
+
+#### [Longest Substring Without Repeating Characters](https://github.com/PlanckConst/DS-A/blob/master/Problems/Medium/LongestSubstringRepeatingCharacters.cs)
+
+*Time Complexity*: O(N)
+
+*Space Complexity*: O(1)
+
+**Problem Topic**: Hash Table, String, Sliding Window
+
+**Video Explanation**: 
