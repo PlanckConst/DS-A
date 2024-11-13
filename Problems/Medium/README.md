@@ -24,3 +24,14 @@
 
 **Video Explanation**: 
 
+---
+
+#### [Nums Islands](https://github.com/PlanckConst/DS-A/blob/master/Problems/Medium/NumsIslands.cs)
+
+*Time Complexity*: O(M x N)
+
+*Space Complexity*: O(M x N)
+
+**Problem Topic**: Array, DFS, BFS, Union Find, Matrix
+
+**Video Explanation**: 
