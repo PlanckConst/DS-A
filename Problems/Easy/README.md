@@ -35,3 +35,23 @@
 **Problem Topic**: Array, Two Pointers, Sorting
 
 **Video Explanation**: 
+
+---
+
+#### [Contains Duplicate](https://github.com/PlanckConst/DS-A/blob/master/Problems/Easy/ContainsDuplicate.cs)
+
+Insertion Sort
+
+*Time Complexity*: O(N^2)
+
+*Space Complexity*: O(1)
+
+HashSet
+
+*Time Complexity*: O(N)
+
+*Space Complexity*: O(N)
+
+**Problem Topic**: Array, Hash Table, Sorting
+
+**Video Explanation**: 
