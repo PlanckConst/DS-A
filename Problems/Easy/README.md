@@ -38,7 +38,7 @@
 
 ---
 
-#### [Contains Duplicate](https://github.com/PlanckConst/DS-A/blob/master/Problems/Easy/MergeSortedArray.cs)
+#### [Contains Duplicate](https://github.com/PlanckConst/DS-A/blob/master/Problems/Easy/ContainsDuplicate.cs)
 
 Insertion Sort
 
