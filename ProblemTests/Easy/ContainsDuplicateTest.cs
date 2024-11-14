@@ -3,7 +3,7 @@
 namespace ProblemTests.Easy
 {
     [TestFixture]
-    public class Leet217Tests
+    public class ContainsDuplicatesTest
     {
         [Test]
         public void Test_EmptyArray_ReturnsFalse()
