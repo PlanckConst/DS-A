@@ -67,3 +67,15 @@ HashSet
 **Problem Topic**: Array, Dynamic Programming
 
 **Video Explanation**: 
+
+---
+
+#### [Valid Parentheses](https://github.com/PlanckConst/DS-A/blob/master/Problems/Easy/ValidParentheses.cs)
+
+*Time Complexity*: O(N)
+
+*Space Complexity*: O(N)
+
+**Problem Topic**: String, Stack
+
+**Video Explanation**: 
