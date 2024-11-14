@@ -47,3 +47,15 @@
 **Problem Topic**: Hash Table, String, Sliding Window
 
 **Video Explanation**: 
+
+---
+
+#### [Group Anagrams](https://github.com/PlanckConst/DS-A/blob/master/Problems/Medium/GroupAnagrams.cs)
+
+*Time Complexity*: O(N*M)
+
+*Space Complexity*: O(N*M)
+
+**Problem Topic**: Array, Hash Table, String, Sorting
+
+**Video Explanation**: 

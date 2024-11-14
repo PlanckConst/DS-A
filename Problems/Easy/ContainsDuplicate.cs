@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Problems.Easy
+﻿namespace Problems.Easy
 {
     public class Leet217
     {
@@ -34,16 +32,16 @@ namespace Problems.Easy
 
             return hasDuplicates;
         }
-    //Hashset Solution
-    //HashSet<int> seen = new HashSet<int>();
-    //foreach (int num in nums)
-    //{
-    //    if (seen.Contains(num))
-    //    {
-    //        return true;
-    //    }
-    //    seen.Add(num);
-    //}
-    //return false;
+        //Hashset Solution
+        //HashSet<int> seen = new HashSet<int>();
+        //foreach (int num in nums)
+        //{
+        //    if (seen.Contains(num))
+        //    {
+        //        return true;
+        //    }
+        //    seen.Add(num);
+        //}
+        //return false;
     }
 }
