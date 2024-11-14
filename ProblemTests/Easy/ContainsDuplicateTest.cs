@@ -49,7 +49,11 @@ namespace ProblemTests.Easy
         public void Test_LargeArrayNoDuplicates_ReturnsFalse()
         {
             int[] input = new int[1000];
-            for (int i = 0; i < 1000; i++) input[i] = i;
+            for (int i = 0; i < 1000; i++)
+            {
+                input[i] = i;
+            }
+
             bool result = Leet217.ContainsDuplicate(input);
             Assert.That(result, Is.False);
         }
@@ -58,7 +62,11 @@ namespace ProblemTests.Easy
         public void Test_LargeArrayWithDuplicates_ReturnsTrue()
         {
             int[] input = new int[1000];
-            for (int i = 0; i < 999; i++) input[i] = i;
+            for (int i = 0; i < 999; i++)
+            {
+                input[i] = i;
+            }
+
             input[999] = 500; // Introduce a duplicate
             bool result = Leet217.ContainsDuplicate(input);
             Assert.That(result, Is.True);
