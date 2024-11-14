@@ -16,6 +16,9 @@
 
 *Language:* **C#**
 
+*Read The Document Below*
+[Guide to Approach Coding Interview Questions](https://docs.google.com/document/d/1i5-jk41_WD3Nxr7u4xijnhPFHsw61z8wUyJZtowoXqU/edit?usp=sharing)
+
 ## Pre-requisites
 - Fundamental Knowledge of C#
 - Understanding of Big O Notation
