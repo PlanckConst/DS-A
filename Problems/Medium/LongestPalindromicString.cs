@@ -27,8 +27,8 @@ namespace Problems.Medium
             StringBuilder sb = new("#");
             foreach (char c in s)
             {
-                sb.Append(c);
-                sb.Append('#');
+                _ = sb.Append(c);
+                _ = sb.Append('#');
             }
             return sb.ToString();
         }
@@ -43,7 +43,7 @@ namespace Problems.Medium
             for (int i = 0; i < n; i++)
             {
                 // Calculate the mirror index relative to the current center
-                int mirrorIndex = 2 * currentCenter - i;
+                int mirrorIndex = (2 * currentCenter) - i;
 
                 // Initialize the palindrome length if within the current boundary
                 if (i < currentRightBoundary)
