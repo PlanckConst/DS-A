@@ -15,7 +15,7 @@ namespace ProblemTests.Medium
             string result = LongestPalindromicString.LongestPalindrome(input);
 
             // Assert
-            Assert.IsTrue(result == "bab" || result == "aba", $"Unexpected result: {result}");
+            Assert.IsTrue(result is "bab" or "aba", $"Unexpected result: {result}");
         }
 
         [Test]
