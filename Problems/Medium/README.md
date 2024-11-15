@@ -71,3 +71,15 @@
 **Problem Topic**: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
 
 **Video Explanation**: 
+
+---
+
+#### [Merge Intervals](https://github.com/PlanckConst/DS-A/blob/master/Problems/Medium/MergeIntervals.cs)
+
+*Time Complexity*: O(N*logN)
+
+*Space Complexity*: O(N)
+
+**Problem Topic**: Array, Sorting
+
+**Video Explanation**: 
